@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Desarrollo de Sistemas con Bootstrap</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body style="background-color: rgb(136, 231, 231);">
+
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Desarrollo de Sistemas</h1>
+        <div class="jumbotron bg-warning animated bounceInDown">
+            <img src="https://th.bing.com/th/id/R.3a73fdfc19862dbdf068139e05fd100d?rik=vdCoBKhCWsXljg&pid=ImgRaw&r=0"
+                alt="Desarrollo de Sistemas" class="img-fluid rounded-circle mb-3" width="300">
+            <h2 class="display-4">¡Bienvenido al mundo del Desarrollo de Sistemas!</h2>
+            <p class="lead">Aquí encontrarás recursos y herramientas para el desarrollo de software.</p>
+            <hr class="my-4">
+            <p>Explora nuestras tablas y listas para obtener más información.</p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Más información</a>
+        </div>
+
+        <h2>Tabla de Proyectos</h2>
+        <table class="table table-striped table-danger animated fadeIn">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre del Proyecto</th>
+                    <th>Tipo</th>
+                    <th>Fecha de Inicio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Sistema de Gestión de Inventarios</td>
+                    <td>Web</td>
+                    <td>2023-01-15</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Aplicación Móvil de Tareas</td>
+                    <td>Móvil</td>
+                    <td>2023-02-10</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Sistema de Recursos Humanos</td>
+                    <td>Web</td>
+                    <td>2023-03-05</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Lista de Herramientas</h2>
+        <ul class="list-group animated slideInLeft">
+            <li class="list-group-item"><i class="fas fa-check-circle text-success"></i> Lenguajes de Programación</li>
+            <li class="list-group-item"><i class="fas fa-check-circle text-success"></i> Frameworks y Bibliotecas</li>
+            <li class="list-group-item"><i class="fas fa-check-circle text-success"></i> Bases de Datos</li>
+            <li class="list-group-item"><i class="fas fa-check-circle text-success"></i> Control de Versiones</li>
+        </ul>
+
+        <div class="card mt-5 bg-light animated zoomIn">
+            <div class="card-body">
+                <h2 class="card-title">Contáctanos</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea class="form-control" id="mensaje" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Imagen circular a la derecha del formulario -->
+        <img src="https://th.bing.com/th/id/R.4dc30bad89fa02e3f1ed6df0626daa28?rik=ARS0IgiCGMApfg&pid=ImgRaw&r=0"
+            alt="Imagen" class="img-fluid rounded-circle float-right mt-4 animated flipInX" width="80px">
+
+    </div>
+
+    <!-- Pie de página con animación -->
+    <footer class="bg-dark text-white text-center py-3 mt-5 animated fadeInUp">
+        <p>&copy; 2023 Desarrollo de APLICACIONES WEB. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Scripts de Bootstrap, jQuery y Font Awesome (para los íconos) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit-id.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
